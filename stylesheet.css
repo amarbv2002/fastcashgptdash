@@ -1,0 +1,220 @@
+body {
+    margin: 0px auto;
+    padding: 0;
+    font-family: "Montserrat" , sans-serif;
+}
+
+.text-black2 {
+    color: rgb(20, 21, 31);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-green {
+    color: #1FBF5F;
+}
+
+.text-blue {
+    color: #009EFB;
+}
+
+.bg-black2 {
+    background-color: #121212;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-green {
+    background-color: #1FBF5F;
+}
+
+.bg-green2 {
+    background-color: #16b455;
+}
+
+.bg-blue {
+    background-color: #009EFB;
+}
+
+.mybuttons ul li {
+    transition: 0.3s;
+    border-radius: 7px;
+}
+
+.mybuttons ul li:hover {
+    background: black;
+}
+
+.mybuttons ul li a:hover {
+}
+
+.slider {
+    background-color: #009EFB;
+    padding: 7em 1.5em;
+}
+
+.slider p {
+    font-size: 1.2em;
+}
+
+.slider a {
+    font-size: 1.4em;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.slider a:hover {
+    background-color: #1FBF5F !important;
+    color: rgb(43, 43, 43) !important;
+}
+
+.stats i {
+    margin:0px;
+    font-size:2.2em;
+    line-height:60px;
+  }
+  
+  .stats h2 {
+    margin:0px;
+    float:left;
+    font-size:1.1em;
+    line-height: 30px;
+  }
+  
+  .stats h2 span {
+    font-weight:600;
+    font-size:1.6em;
+  }
+
+  .card-body , .card {
+      border-radius: 15px;
+  }
+
+  .started {
+      padding: 3em 1.5em;
+  }
+
+  .started p {
+      font-size: 1.2em;
+      color:rgb(129, 129, 129);
+  }
+
+  .faq {
+      padding: 3em;
+      background-color: rgb(245, 245, 245);
+  }
+
+  .faq button {
+      font-size: 0.6em;
+  }
+
+  .info {
+      background-color: #1FBF5F;
+    padding: 3em 1.5em;
+}
+
+.info p {
+    color:rgb(233, 233, 233);
+}
+
+.info a {
+    font-size: 1.4em;
+    border-radius: 20px;
+    background-color: #333;
+}
+
+.info a:hover {
+    background-color: #009EFB;
+}
+
+.footer {
+    background-color: #121212;
+    padding: 1.5em 1.5em 0.5em 1.5em;
+}
+
+.footer p {
+    color: rgb(202, 202, 202);
+}
+
+.footer a {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #009EFB;
+}
+
+
+
+/* Account page */
+
+
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+  }
+
+  .sidebar {
+      margin-top: -20px;
+  }
+
+  .sidebar nav{
+      background-color: #121212;
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  .sidebar .nav-link {
+      font-size: 1.1em;
+      text-transform: uppercase;
+      color: #fff;
+  }
+
+  .sidebar a { 
+      margin: 10px 0px;
+  }
+
+  .activate {
+      background-color: #009EFB;
+  }
+
+  .sidebar a:hover {
+      background-color: #009EFB;
+  }
+
+ .sidebar a:hover {
+     color: #121212;
+ }
+  
+  .sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+  
+  /*
+   * Navbar
+   */
+  
+  .navbar-brand {
+    padding-top: .75rem 0rem;
+    font-size: 1rem;
+  }
+  
+  .navbar .navbar-toggler {
+    top: 0rem;
+    right: 1rem;
+  }
